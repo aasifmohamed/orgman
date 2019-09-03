@@ -6,9 +6,10 @@ import java.util.Date;
 
 public class UserDemographyFactory {
 
-    //TODO: Implement body
+
     public static UserDemography buildUserDemography(String userEmail, String userTitle, String genderId, String raceId, Date dateOfBirth) {
-        throw new UnsupportedOperationException("Not supported yet.");
+
+        return new UserDemography(userEmail, userTitle, genderId, raceId, dateOfBirth);
         /**
          * Your implementation goes here
          * INSTRUCTIONS
